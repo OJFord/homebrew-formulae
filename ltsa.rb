@@ -4,7 +4,7 @@ class Ltsa < Formula
   url "http://www.doc.ic.ac.uk/~jnm/book/ltsa/ltsa.jar"
   version "3.0"
   sha256 "2068bfd818f2ea3558ceb78f33ec127a8fc0869c944ee98eacf1ab6d762347de"
-  depends_on :java => "2"
+  depends_on "openjdk@8"
 
   def install
     prefix.install "ltsa.jar"
